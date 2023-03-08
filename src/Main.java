@@ -17,9 +17,10 @@ public class Main {
         int a = (int) ( Math.random() * 1000 - 500 );
         int b = (int) ( Math.random() * 1000 - 500 );
         String answer = ( a + b >= 0 ) ? "Сумма положительная" : "Сумма отрицательная";
-        /*System.out.println(a);
+        /*
+        System.out.println(a);
         System.out.println(b);
-         */
+        */
         System.out.println( answer );
     }
 
@@ -38,8 +39,8 @@ public class Main {
         int b = (int) ( Math.random() * 1000 - 500 );
         String answer = ( a >= b ) ? "a >= b" : "b > a";
         /*
-        /System.out.println("a=" + a );
-        System.out.println("b=" + b );
+        System.out.println( "a=" + a );
+        System.out.println( "b=" + b );
         */
         System.out.println( answer );
     }
