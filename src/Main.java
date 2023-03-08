@@ -19,7 +19,7 @@ public class Main {
         String answer = ( a + b >= 0 ) ? "Сумма положительная" : "Сумма отрицательная";
         /*System.out.println(a);
         System.out.println(b);
-         */
+        */
         System.out.println( answer );
     }
 
