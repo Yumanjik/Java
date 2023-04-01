@@ -5,7 +5,6 @@ public class Main {
         checkSumSign();
         printColor();
         compareNumbers();
-
         int a = 23;
         int b = -7;
         int c = 0;
@@ -79,7 +78,6 @@ public class Main {
         for (int i = 0; i < n; i++) {
             System.out.println(s);
         }
-
     }
 
     public static boolean work5(int year) {
@@ -106,9 +104,7 @@ public class Main {
                 }
             }
             System.out.println();
-
         }
-
     }
 
     public static void primer3() {
@@ -121,7 +117,6 @@ public class Main {
                 }
             }
             System.out.println();
-
         }
     }
     public static void primer4() {
@@ -172,7 +167,6 @@ public class Main {
                 }
             }
             System.out.println();
-
         }
     }
     public static void zadanie3() {
@@ -185,7 +179,6 @@ public class Main {
                 }
             }
             System.out.println();
-
         }
     }
     public static void zadanie4() {
@@ -198,7 +191,6 @@ public class Main {
                 }
             }
             System.out.println();
-
         }
     }
     public static void zadanie5() {
@@ -211,7 +203,6 @@ public class Main {
                 }
             }
             System.out.println();
-
         }
     }
 }
