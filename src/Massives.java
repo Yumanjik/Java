@@ -11,7 +11,7 @@ public class Massives {
         int[] arr1 = {2, 2, 2, 1, 2, 2, 10, 1};
         System.out.print(checkBalance(arr1));
          */
-        int a = 4;
+        int a = 0;
         int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         displacement(arr, a);
     }
@@ -98,11 +98,19 @@ public class Massives {
     }
 
     public static void displacement(int[] input, int n) {
-        for (int j = 0; j < (n % input.length); j++) {
-            for (int i = input.length; i  > 1; i--) {
-                int buf = input[i % input.length];
-                input[i % input.length] = input[i - 1];
-                input[i - 1] = buf;
+        if (n > 0) {
+            for (int j = 0; j < (n % input.length); j++) {
+                for (int i = input.length; i > 1; i--) {
+                    int buf = input[i % input.length];
+                    input[i % input.length] = input[i - 1];
+                    input[i - 1] = buf;
+                }
+            }
+        } else for (int j = 0; j < (-n % input.length); j++) {
+            for (int i = 0; i < input.length - 1; i++) {
+                int buf = input[i];
+                input[i] = input[i + 1];
+                input[i + 1] = buf;
             }
         }
         System.out.println(Arrays.toString(input));
