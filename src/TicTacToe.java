@@ -104,7 +104,7 @@ public class TicTacToe {
                     v = 0;
                 }
             }
-            if (h == DOTS_TO_WIN || v == DOTS_TO_WIN) {
+            if (h >= DOTS_TO_WIN || v >= DOTS_TO_WIN) {
                 return true;
             }
         }
