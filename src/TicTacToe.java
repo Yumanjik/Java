@@ -94,7 +94,6 @@ public class TicTacToe {
             for (int j = 0; j < SIZE; j++) {
                 if (map[i][j] == dot) {
                     h++;
-                    System.out.println(h);
                 } else if (h != DOTS_TO_WIN) {
                     h = 0;
                 }
