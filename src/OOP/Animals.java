@@ -6,7 +6,6 @@ package OOP;
         protected String type;
         protected int maxRun;
         protected int maxSwim;
-        protected double maxJump;
 
         public Animals(String name){
             this.name = name;
@@ -28,14 +27,6 @@ package OOP;
                 System.out.println(this.type + " " + this.name + " проплыл(а): " + dist + " м");
             } else {
                 System.out.println(this.type + " " + this.name + " не может плавать так далеко");
-            }
-        }
-
-        public void jump(double height) {
-            if (this.maxJump >= height) {
-                System.out.println(this.type + " " + this.name + " прыгнул(а) на " + height + " м");
-            } else {
-                System.out.println(this.type + " " + this.name + " не может прыгнуть так высоко");
             }
         }
     }
