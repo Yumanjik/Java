@@ -22,13 +22,11 @@ public class Main {
 
         dog1.run(400);
         dog2.swim(5);
-        dog1.jump(0.3);
 
         System.out.println();
 
         cat1.run(1700);
-        cat1.swim(5);
-        cat2.jump(1.7);
+        cat2.swim(5);
 
         System.out.println(Animals.getCount());
     }
