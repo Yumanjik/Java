@@ -7,14 +7,12 @@ package OOP;
         protected int maxRun;
         protected int maxSwim;
         protected double maxJump;
-        private static int count;
 
         public Animals(String name){
             this.name = name;
         }
         public static int getCount(){
-            count = Dog.getCount() + Cat.getCount();
-            return count;
+            return Dog.getCount() + Cat.getCount();
         }
 
         public void run(int dist) {
